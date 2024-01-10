@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/python_ML/mlflow/mlflowProject/mlruns/0/4c82a375f89e4c7db74a848bad1d120f/artifacts
+end_time: 1704884569994
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4c82a375f89e4c7db74a848bad1d120f
+run_name: persistent-zebra-312
+run_uuid: 4c82a375f89e4c7db74a848bad1d120f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704884566367
+status: 3
+tags: []
+user_id: manishaa

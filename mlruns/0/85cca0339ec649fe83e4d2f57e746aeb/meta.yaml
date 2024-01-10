@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/python_ML/mlflow/mlflowProject/mlruns/0/85cca0339ec649fe83e4d2f57e746aeb/artifacts
+end_time: 1704884405808
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 85cca0339ec649fe83e4d2f57e746aeb
+run_name: languid-mole-51
+run_uuid: 85cca0339ec649fe83e4d2f57e746aeb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704884401720
+status: 3
+tags: []
+user_id: manishaa
