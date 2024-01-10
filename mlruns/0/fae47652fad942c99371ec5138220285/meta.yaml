@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/python_ML/mlflow/mlflowProject/mlruns/0/fae47652fad942c99371ec5138220285/artifacts
+end_time: 1704893124531
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fae47652fad942c99371ec5138220285
+run_name: bright-mare-624
+run_uuid: fae47652fad942c99371ec5138220285
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704893118448
+status: 3
+tags: []
+user_id: manishaa

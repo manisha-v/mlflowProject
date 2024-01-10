@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/python_ML/mlflow/mlflowProject/mlruns/0/8ad58d82cb1f4b8f9029b3228108423b/artifacts
+end_time: 1704893127297
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8ad58d82cb1f4b8f9029b3228108423b
+run_name: enthused-snake-379
+run_uuid: 8ad58d82cb1f4b8f9029b3228108423b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704893122183
+status: 3
+tags: []
+user_id: manishaa
