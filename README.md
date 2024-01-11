@@ -1,5 +1,7 @@
 # mlflowProject
 
+Implemented a wine quality prediction project using MLOps and MLflow. Utilized the Wine Quality dataset, developed machine learning models, and deployed them on an EC2 instance. This project aimed to gain hands-on experience in MLOps principles and the effective use of MLflow for model tracking and deployment.
+
 ## Workflows
 
 1. Update config.yaml
@@ -38,16 +40,12 @@ open up you local host and port
 ```
 
 
-
-##### cmd
-- mlflow ui
-
 ### dagshub
 [dagshub](https://dagshub.com/)
 
 MLFLOW_TRACKING_URI=https://dagshub.com/manisha-v/mlflowProject.mlflow \
 MLFLOW_TRACKING_USERNAME=manisha-v \
-MLFLOW_TRACKING_PASSWORD=3a78dab07cebc41a1b9d64fd5ac7f1e82eb5caed  \
+MLFLOW_TRACKING_PASSWORD=your-token  \
 python script.py
 
 Run this to export as env variables:
@@ -58,7 +56,7 @@ export MLFLOW_TRACKING_URI=https://dagshub.com/manisha-v/mlflowProject.mlflow
 
 export MLFLOW_TRACKING_USERNAME=manisha-v
 
-export MLFLOW_TRACKING_PASSWORD=3a78dab07cebc41a1b9d64fd5ac7f1e82eb5caed
+export MLFLOW_TRACKING_PASSWORD=your-token
 
 ```
 
@@ -97,7 +95,7 @@ export MLFLOW_TRACKING_PASSWORD=3a78dab07cebc41a1b9d64fd5ac7f1e82eb5caed
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 352898088642.dkr.ecr.ap-south-1.amazonaws.com/mlflowproject
+    - Save the URI
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
@@ -131,19 +129,13 @@ export MLFLOW_TRACKING_PASSWORD=3a78dab07cebc41a1b9d64fd5ac7f1e82eb5caed
 
     AWS_SECRET_ACCESS_KEY=
 
-    AWS_REGION = us-east-1
+    AWS_ECR_LOGIN_URI = 
 
-    AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+    ECR_REPOSITORY_NAME = 
 
-    ECR_REPOSITORY_NAME = simple-app
+Commit the code and enjoy!
 
+## Need any help?
+##### Connect me on [LinkedIn](https://www.linkedin.com/in/manisha-varshney-914646191/)  <img src="https://cdn.iconscout.com/icon/free/png-256/linkedin-162-498418.png" width="25"> 
 
-
-
-## About MLflow 
-MLflow
-
- - Its Production Grade
- - Trace all of your expriements
- - Logging & tagging your model
 
